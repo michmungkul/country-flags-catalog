@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const apiUrl = axios.create({
+const baseUrl = axios.create({
 
-  baseURL: "myurl.com"
+  baseURL: "https://restcountries.com/v3.1/"
 });
 
-export default apiUrl;
+export default baseUrl;
